@@ -3,6 +3,9 @@
 	border:none !important;
 	text-transform: uppercase;
 }
+projects img{
+	max-width:300px;
+}
 p, i {
 	text-transform: none;
 }

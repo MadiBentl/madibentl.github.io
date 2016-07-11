@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$("#btnShamrock").click(function(){
-		$('h1').css('color', 'orange');
 		if ($( "#seeMoreShamrock" ).is(":visible")){
 			$("#seeMoreShamrock").hide("slow");
 			$('#btnShamrock').html("SEE MORE");
@@ -11,7 +10,6 @@ $(document).ready(function(){
 		}
 	});
 	$("#btnSurplus").click(function(){
-		$('h1').css('color', 'blue');
 		if ($( "#seeMoreSurplus" ).is(":visible")){
 			$("#seeMoreSurplus").hide("slow");
 			$("#btnSurplus").html("SEE MORE");
